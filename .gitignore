@@ -1,0 +1,7 @@
+fig/
+output/
+.vscode/
+source_code/*.mod
+source_code/*.o
+source_code/__pycache__/
+source_code/start*
