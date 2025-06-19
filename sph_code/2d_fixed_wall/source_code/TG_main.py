@@ -44,9 +44,14 @@ import TG_uv_plot as uv_plot
 import TG_p_vs_time as p_vs_time
 import TG_snapshot as snap
 
-start_time = time.perf_counter() # cpu time
+# cpu time
+start_time = time.perf_counter()
 print('+ -------------------------------------------------------- +')
 print('[message] main.py has started')
+
+# mkdir
+save_path = '../fig'
+os.makedirs(save_path, exist_ok=True)
 
 #=========================#
 #  read variables         # 

@@ -16,10 +16,10 @@ path_exe     = []
 #=========================#
 #  PATH                   # 
 #=========================#
-ans = input('rm: this directory ?')
+ans = input('Initialize directory [y/n]: ')
 if (ans == 'yes' or ans == 'y'):
-    path_output  += glob.glob('./output/*')
-    path_fig     += glob.glob('./fig/*')
+    path_output  += glob.glob('./output')
+    path_fig     += glob.glob('./fig')
     path_mod     += glob.glob('./source_code/*.mod')
     path_o       += glob.glob('./source_code/*.o'  )
     path_pycache += glob.glob('./source_code/__py*')
