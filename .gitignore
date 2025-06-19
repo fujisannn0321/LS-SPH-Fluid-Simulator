@@ -1,7 +1,15 @@
-fig/
-output/
-.vscode/
-source_code/*.mod
-source_code/*.o
-source_code/__pycache__/
-source_code/start*
+# VSCode configuration directories
+**/.vscode/
+
+# Fig and output directories
+**/fig/
+**/output/
+
+# Build artifacts and temporary files related to source code
+**/*.mod
+**/*.o
+**/__pycache__/
+**/start_calculation
+
+# Windows Zone.Identifier metadata files
+**/*Zone.Identifier
