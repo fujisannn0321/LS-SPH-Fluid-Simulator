@@ -1,4 +1,4 @@
-# LS-SPH-Fluid-Simulator
+# LS-SPH-Fluid-Simulator (test)
 
 This is an open-source fluid simulation code based on the Least Squares Smoothed Particle Hydrodynamics (LS-SPH), a high-precision and generalized extension of classical SPH.
 
