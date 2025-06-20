@@ -16,14 +16,14 @@ path_exe     = []
 #=========================#
 #  PATH                   # 
 #=========================#
-ans = input('rm: this directory ?')
+ans = input('Initialize directory [y/n]: ')
 if (ans == 'yes' or ans == 'y'):
-    path_output  += glob.glob('./output/*')
-    path_fig     += glob.glob('./fig/*')
+    path_output  += glob.glob('./output')
+    path_fig     += glob.glob('./fig')
     path_mod     += glob.glob('./source_code/*.mod')
     path_o       += glob.glob('./source_code/*.o'  )
-    path_pycache += glob.glob('./source_code/__py*')
-    path_exe     += glob.glob('./source_code/star*')
+    path_pycache += glob.glob('./source_code/__pycache__')
+    path_exe     += glob.glob('./source_code/start_calculation')
 
 path_all = path_output + path_fig + path_mod + path_o + path_pycache + path_exe
 #=========================#

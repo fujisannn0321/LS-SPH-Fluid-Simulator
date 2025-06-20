@@ -12,8 +12,10 @@ subroutine out_input
     character(len=999) :: path_name, source_name
 
     !=========================!
-    !  copy input & makefile  ! 
+    !  mkdir and cp           ! 
     !=========================!
+    path_name = '../output/'
+    call mkdir(trim(adjustl(path_name)))
     path_name = '../output/'//trim(adjustl(save_name))//'/'
     call mkdir(trim(adjustl(path_name)))
     source_name = './Makefile'
