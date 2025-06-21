@@ -1,5 +1,7 @@
 # LS-SPH-Fluid-Simulator
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15709255.svg)](https://doi.org/10.5281/zenodo.15709255)
+
 This is an open-source fluid simulation code based on the Least Squares Smoothed Particle Hydrodynamics (LS-SPH) [[1](#ref1)], a high-precision and generalized extension of classical SPH.
 
 This code provides the following features (📣 indicates new additions):
@@ -42,22 +44,17 @@ The following example shows how to simulate the 2D Taylor-Green vortex:
 
 ## 🧑‍💻 Citation
 
-If you use this simulator in your research, please cite the following:
+If you use this simulator in your research, please cite the following two references:
 
-```bibtex
-@article{shobuzako2025,
-  author  = {Kensuke Shobuzako and Shigeo Yoshida and Yoshifumi Kawada and Ryosuke Nakashima and Shujiro Fujioka and Mitsuteru Asai},
-  title   = {A generalized smoothed particle hydrodynamics method based on the moving least squares method and its discretization error estimation},
-  journal = {Results in Applied Mathematics},
-  volume  = {26},
-  pages   = {100594},
-  year    = {2025},
-  issn    = {2590-0374},
-  doi     = {10.1016/j.rinam.2025.100594},
-  url     = {https://www.sciencedirect.com/science/article/pii/S2590037425000585}
-}
+#### 📄 Journal Article  
+Shobuzako, K., Yoshida, S., Kawada, Y., Nakashima, R., Fujioka, S., & Asai, M. (2025).  
+A generalized smoothed particle hydrodynamics method based on the moving least squares method and its discretization error estimation.  
+*Results in Applied Mathematics*, 26, 100594. [https://doi.org/10.1016/j.rinam.2025.100594](https://doi.org/10.1016/j.rinam.2025.100594)
 
-```
+#### 📦 Software  
+Shobuzako, K. (2025). *LS-SPH-Fluid-Simulator* (Version 1.0.0) [Computer software].  
+Zenodo. https://doi.org/10.5281/zenodo.15709255
+
 
 ## 📖 User Manual (Japanese Only)
 
@@ -74,12 +71,11 @@ Please see [CONTRIBUTORS.md](./CONTRIBUTORS.md) for contributor information.
 
 ## 🔍 References
 <a id="ref1">[1]</a>　
-K. Shobuzako, S. Yoshida, Y. Kawada, R. Nakashima, S. Fujioka, and M. Asai,  
-"A generalized smoothed particle hydrodynamics method based on the moving least squares method and its discretization error estimation",  
-*Results in Applied Mathematics*,
-Vol. 26,
-2025,
-100594. ([https://doi.org/10.1016/j.rinam.2025.100594](https://doi.org/10.1016/j.rinam.2025.100594))
+Shobuzako, K., Yoshida, S., Kawada, Y., Nakashima, R., Fujioka, S., & Asai, M. (2025).  
+A generalized smoothed particle hydrodynamics method based on the moving least squares method and its discretization error estimation.  
+*Results in Applied Mathematics*, 26, 100594. [https://doi.org/10.1016/j.rinam.2025.100594](https://doi.org/10.1016/j.rinam.2025.100594)
+
+
 
 ## 🪪 License
 

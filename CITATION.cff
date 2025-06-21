@@ -6,6 +6,6 @@ authors:
   orcid: "https://orcid.org/0009-0000-4453-5398"
 title: "LS-SPH-Fluid-Simulator"
 version: 1.0.0
-#doi: 10.5281/zenodo.1234
+doi: 10.5281/zenodo.15709255
 date-released: 2025-06-21
 url: "https://github.com/shobuzako-kensuke/LS-SPH-Fluid-Simulator"
