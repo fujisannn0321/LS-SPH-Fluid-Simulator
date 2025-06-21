@@ -31,7 +31,7 @@ This code provides the following features (📣 indicates new additions):
 The following example shows how to simulate the 2D Taylor-Green vortex:
 
 1. Clone or download this repository to your computer.
-2. Navigate to `sph_code/2d-fixed-wall/source_code/` .
+2. Navigate to `sph_code/benchmarks/2d-fixed-wall/source_code/` .
 3. Run `make` to build the program.
 4. Run `./start_calculation` to start the simulation.
 5. After the simulation finishes, run `TG_main.py` to generate figures.
